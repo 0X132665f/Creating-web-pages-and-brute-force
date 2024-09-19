@@ -10,7 +10,7 @@ def login():
     username = request.form.get('username')
     password = request.form.get('password')
     
-    if username == 'admin' and password == 'apple':
+    if username == 'admin' and password == 'CHANGE YOUR PASSWORD':
         return jsonify(message='Login successful'), 201
     else:
         return jsonify(message='Invalid username or password'), 401
