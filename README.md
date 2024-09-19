@@ -24,9 +24,10 @@ A dictionary attack is a more efficient form of brute force attack. Instead of t
 ## Usage
 
 1. Run the `index.html` and `app.py` files.
-2. Set the `url` variable in the `bruteforce_csv.py` file to the URL you want to target.
-3. Set the `username` variable to the username you want to target.
-4. Set the `password_file` variable to the path of the downloaded `passwords.csv` file.
-5. Execute the `bruteforce_csv.py` file to attempt the attack.
+2. Set the  `password` in your `app.py` files.
+3. Set the `url` variable in the `bruteforce_csv.py` file to the URL you want to target.
+4. Set the `username` variable to the username you want to target.
+5. Set the `password_file` variable to the path of the downloaded `passwords.csv` file.
+6. Execute the `bruteforce_csv.py` file to attempt the attack.
 
 **Note:** This project is for educational purposes only. Unauthorized access to computer systems is illegal and unethical.
