@@ -6,7 +6,7 @@ init()
 
 url = 'http://127.0.0.1:5001/login'
 username = 'admin'
-password_file = 'C:/Users/oheun/잡/Brute Force attack/모의해킹/passwords.csv'
+password_file = <'YOUR CSV FILE PATH'>
 
 
 def attempt_login(username, password):
